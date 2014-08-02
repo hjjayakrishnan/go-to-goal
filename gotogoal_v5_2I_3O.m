@@ -42,8 +42,7 @@ theta_e = zeros(k_max,1); % error in theta
 % Time step
 t = 0.1;
 
-% Controller (you need to design this properly!)
-% (for example, look up feedback linearization)
+% Controller 
 K = ones(2,3); % I just made this one up
 
 for k = 1:k_max
